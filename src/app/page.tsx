@@ -1,6 +1,7 @@
 import Layout from './layout';
 import Principais from '../app/components/Principais';
 
+
 export default function HomePage() {
   return (
     <Layout>
