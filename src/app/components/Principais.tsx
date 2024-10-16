@@ -13,10 +13,6 @@ const Principais = () => {
     'Brasília',
     'Salvador',
     'Fortaleza',
-    'Curitiba',
-    'Manaus',
-    'Recife',
-    'Porto Alegre'
   ];
 
   const fetchWeatherData = async () => {
