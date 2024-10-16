@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaHome, FaSearch, FaSignInAlt, FaUser } from "react-icons/fa";
+import { FaHome, FaSearch, FaUser } from "react-icons/fa";
 import styles from '../layout.module.css';
 
 export default function Menu() {

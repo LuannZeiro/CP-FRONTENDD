@@ -43,7 +43,7 @@ const Buscar = () => {
 
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
-      <h2>Buscar Temperatura da Cidade</h2>
+      <h2>Pesquise Temperatura de Outra Cidade</h2>
       <form onSubmit={handleSearch}>
         <input
           type="text"

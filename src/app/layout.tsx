@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps) {
       <body className={styles.container}>
         <header className={styles.header}>
           <div>
-            <h2>CP FRONT</h2>
+            <h2>CLIMA DO LUANN - CP</h2>
           </div>
           <Menu />
         </header>
