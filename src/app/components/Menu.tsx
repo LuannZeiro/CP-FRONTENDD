@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaHome, FaSearch, FaSignInAlt, FaUser } from "react-icons/fa";
+import { FaHome, FaPizzaSlice, FaSignInAlt, FaUser } from "react-icons/fa";
 import styles from '../layout.module.css';
 
 export default function Menu() {
@@ -9,7 +9,7 @@ export default function Menu() {
         <FaHome /> Home
       </Link>
       <Link href="/produtos" className={styles.link}>
-        <FaSearch /> Produtos
+        <FaPizzaSlice /> Produtos
       </Link>
       <Link href="/login" className={styles.link}>
         <FaSignInAlt /> Login
