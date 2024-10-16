@@ -5,7 +5,7 @@ import styles from '../layout.module.css';
 export default function Menu() {
   return (
     <nav className={styles.nav}>
-      <Link href="/home" className={styles.link}>
+      <Link href="/homee" className={styles.link}>
         <FaHome /> Home
       </Link>
       <Link href="/search" className={styles.link}>
