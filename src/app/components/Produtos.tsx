@@ -20,12 +20,18 @@ const Produtos = () => {
       <div>
         <h2>Pizza Portuguesa</h2>
         <p>ingredientes: Presunto, Mussarela, Ovo e Cebola</p>
-        <p>Broto (4 Pedaços): R$25,00 - Grande (8 Pedaços): R$45,00</p>
+        <p>Broto (4 Pedaços): R$30,00 - Grande (8 Pedaços): R$55,00</p>
       </div>
       <br />
       <div>
         <h2>Pizza Bauru</h2>
         <p>ingredientes: Presunto, Mussarela e Tomate</p>
+        <p>Broto (4 Pedaços): R$28,00 - Grande (8 Pedaços): R$50,00</p>
+      </div>
+      <br />
+      <div>
+        <h2>Pizza Marguerita</h2>
+        <p>ingredientes: Mussarela e Tomate</p>
         <p>Broto (4 Pedaços): R$25,00 - Grande (8 Pedaços): R$45,00</p>
       </div>
       <br />
