@@ -2,6 +2,7 @@
 
 import './globals.css'; 
 import { ReactNode, useEffect, useState } from 'react';
+import { FaCloud, FaCloudMoon, FaSun, FaMoon } from "react-icons/fa";
 import Menu from '../app/components/Menu';
 import styles from './layout.module.css';
 
@@ -26,7 +27,7 @@ export default function RootLayout({ children }: LayoutProps) {
       <body className={styles.container}>
         <header className={styles.header}>
           <div>
-            <h2>CLIMA DO LUANN - CP</h2>
+          <FaMoon /> <FaCloud /> CLIMA DO LUANN - CP <FaCloudMoon /> <FaSun />
           </div>
           <Menu />
         </header>
