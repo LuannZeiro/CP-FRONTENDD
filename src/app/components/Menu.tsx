@@ -11,12 +11,13 @@ export default function Menu() {
       <Link href="/produtos" className={styles.link}>
         <FaPizzaSlice /> Produtos
       </Link>
-      <Link href="/login" className={styles.link}>
-        <FaSignInAlt /> Login
-      </Link>
       <Link href="/perfil" className={styles.link}>
         <FaUser /> Perfil
       </Link>
+      <Link href="/login" className={styles.link}>
+        <FaSignInAlt /> Login
+      </Link>
+      
     </nav>
   );
 }
