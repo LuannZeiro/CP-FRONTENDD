@@ -52,7 +52,7 @@ const Buscar = () => {
           placeholder="Digite o nome da cidade"
           style={{ padding: '10px', width: '250px' }}
         />
-        <button type="submit" style={{ padding: '10px', marginLeft: '10px' }}>
+        <button type="submit" style={{ padding: '10px', marginLeft: '10px', backgroundColor: '#002e4d' }}>
           Buscar
         </button>
       </form>

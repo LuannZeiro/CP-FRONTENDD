@@ -1,5 +1,5 @@
 import Layout from '../layout';
-import Buscar from '../components/WeatherSearch';
+import Buscar from '../components/Buscar';
 
 export default function BuscarPage() {
     return (

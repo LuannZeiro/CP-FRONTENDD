@@ -14,9 +14,6 @@ export default function Menu() {
       <Link href="/perfil" className={styles.link}>
         <FaUser /> Perfil
       </Link>
-      <Link href="/login" className={styles.link}>
-        <FaSignInAlt /> Login
-      </Link>
       
     </nav>
   );
