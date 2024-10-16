@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-const Buscar = () => {
+const Pesquisar = () => {
   const [city, setCity] = useState('');
   const [weatherData, setWeatherData] = useState<any | null>(null);
   const [error, setError] = useState('');
@@ -70,4 +70,4 @@ const Buscar = () => {
   );
 };
 
-export default Buscar;
+export default Pesquisar;

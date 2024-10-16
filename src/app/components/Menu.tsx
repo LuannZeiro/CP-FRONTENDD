@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaHome, FaSearch, FaUser } from "react-icons/fa";
+import { FaHome, FaSearch, FaUser} from "react-icons/fa";
 import styles from '../layout.module.css';
 
 export default function Menu() {
@@ -8,8 +8,8 @@ export default function Menu() {
       <Link href="/" className={styles.link}>
         <FaHome /> Home
       </Link>
-      <Link href="/buscar" className={styles.link}>
-        <FaSearch /> Buscar
+      <Link href="/pesquisar" className={styles.link}>
+        <FaSearch/> Pesquisar
       </Link>
       <Link href="/perfil" className={styles.link}>
         <FaUser /> Perfil
