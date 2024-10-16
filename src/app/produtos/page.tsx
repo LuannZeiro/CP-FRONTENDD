@@ -1,9 +1,9 @@
 import Layout from '../layout';
 
-export default function SearchPage() {
+export default function ProdutosPage() {
     return (
         <Layout>
-        <h1>PROCURAR</h1>
+        <h1>PRODUTOS</h1>
         </Layout>
     );
 }

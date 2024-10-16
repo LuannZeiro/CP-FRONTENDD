@@ -8,13 +8,13 @@ export default function Menu() {
       <Link href="/" className={styles.link}>
         <FaHome /> Home
       </Link>
-      <Link href="/search" className={styles.link}>
-        <FaSearch /> Search
+      <Link href="/produtos" className={styles.link}>
+        <FaSearch /> Produtos
       </Link>
       <Link href="/login" className={styles.link}>
         <FaSignInAlt /> Login
       </Link>
-      <Link href="/about" className={styles.link}>
+      <Link href="/perfil" className={styles.link}>
         <FaUser /> Perfil
       </Link>
     </nav>

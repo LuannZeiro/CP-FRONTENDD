@@ -1,9 +1,9 @@
 import Layout from '../layout';
 
-export default function LoginPage() {
+export default function PerfilPage() {
     return (
         <Layout>
-        <h1>LOGIN</h1>
+        <h1>PERFIL</h1>
         </Layout>
     );
 }
