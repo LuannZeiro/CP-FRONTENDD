@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useState } from 'react';
 
-const WeatherSearch = () => {
+const Buscar = () => {
   const [city, setCity] = useState('');
   const [weatherData, setWeatherData] = useState<any | null>(null);
   const [error, setError] = useState('');
@@ -68,4 +70,4 @@ const WeatherSearch = () => {
   );
 };
 
-export default WeatherSearch;
+export default Buscar;
