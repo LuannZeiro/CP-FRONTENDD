@@ -8,8 +8,8 @@ export default function Menu() {
       <Link href="/" className={styles.link}>
         <FaHome /> Home
       </Link>
-      <Link href="/produtos" className={styles.link}>
-        <FaPizzaSlice /> Produtos
+      <Link href="/clima" className={styles.link}>
+        <FaPizzaSlice /> Clima
       </Link>
       <Link href="/perfil" className={styles.link}>
         <FaUser /> Perfil

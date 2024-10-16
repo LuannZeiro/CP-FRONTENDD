@@ -3,7 +3,7 @@ import Layout from '../layout';
 export default function LoginPage() {
     return (
         <Layout>
-        <h1>LOGINN</h1>
+        <h1>LOGIN</h1>
         </Layout>
     );
 }
