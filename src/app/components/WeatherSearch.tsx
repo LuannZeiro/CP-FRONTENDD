@@ -4,7 +4,7 @@ const WeatherSearch = () => {
   const [city, setCity] = useState('');
   const [weatherData, setWeatherData] = useState<any | null>(null);
   const [error, setError] = useState('');
-  const apiKey = 'SUA_CHAVE_API_AQUI';
+  const apiKey = '867e2b8025a07c515d924aaafe892871';
 
   const fetchWeatherData = async (city: string) => {
     try {

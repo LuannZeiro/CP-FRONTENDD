@@ -8,8 +8,8 @@ export default function Menu() {
       <Link href="/" className={styles.link}>
         <FaHome /> Home
       </Link>
-      <Link href="/clima" className={styles.link}>
-        <FaPizzaSlice /> Clima
+      <Link href="/WeatherSearch" className={styles.link}>
+        <FaPizzaSlice /> Buscar
       </Link>
       <Link href="/perfil" className={styles.link}>
         <FaUser /> Perfil
