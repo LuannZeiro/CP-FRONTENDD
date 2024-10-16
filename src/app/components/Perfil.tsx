@@ -8,7 +8,7 @@ const Perfil = () => {
       <div>
         <h2>Nome: Luann Mariano</h2>
         <p>Email: rm558548@fiap.com.br</p>
-        <p>Data de Nascimento: 22/06/2003</p>
+        <p>Data de Nascimento: 02/06/2003</p>
       </div>
       <br />
       <h3>Interesses</h3>
